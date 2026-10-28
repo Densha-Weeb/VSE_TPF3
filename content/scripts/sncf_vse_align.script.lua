@@ -30,7 +30,15 @@ end
 local function isSolved(con)
 	local params = con.params or con.params_native
 	if params == nil then return false end
-	return params.vseSolved == true and params.vseLayout == LAYOUT_VERSION
+	if params.vseSolved ~= true or params.vseLayout ~= LAYOUT_VERSION then
+		return false
+	end
+	if params.vseSolvedXOffset ~= nil and params.sncf_vse_xoffset ~= nil then
+		if params.vseSolvedXOffset ~= params.sncf_vse_xoffset then
+			return false
+		end
+	end
+	return true
 end
 
 local function samplesFor(edge)
@@ -378,6 +386,7 @@ local function applyToConstruction(entity, flat, flatB)
 
 	p.vseSolved = true
 	p.vseLayout = LAYOUT_VERSION
+	p.vseSolvedXOffset = p.sncf_vse_xoffset
 	p.vseCarTransf = flat
 	if flatB ~= nil and #flatB >= 12 then
 		p.vseBogieTransfs = flatB
@@ -417,7 +426,9 @@ local function consider(s, entity)
 	if not isVseConstruction(con) then return nil end
 	if isSolved(con) then return nil end
 
-	local key = tostring(entity)
+	local params = con.params or con.params_native
+	local xKey = tostring(params and params.sncf_vse_xoffset or 0)
+	local key = tostring(entity) .. ":" .. xKey
 	local tries = s.tried[key] or 0
 	if tries >= MAX_ATTEMPTS then return nil end
 	s.tried[key] = tries + 1

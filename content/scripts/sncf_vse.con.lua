@@ -15,13 +15,13 @@ function data()
             name = _("vse_assetsName"),
             description = _("vse_assetsDesc"),
             icon = "densha_VSE::/vehicle/train/met_se/icons/vse_assets@2x.tga",
-            --previewIcon = "densha_VSE::/vehicle/train/met_se/icons/vse_assets_preview@2x.tga",
+            previewIcon = "densha_VSE::/vehicle/train/met_se/icons/vse_assets_preview@2x.tga",
         },
         menuCategory = {
             categories = {
                 {
                     category = "landscaping_vehicles",
-                    filterCategories = { "waggon" },
+                    filterCategories = { "passenger_wagon" },
                     order = 1000,
                 },
             },
@@ -45,6 +45,7 @@ function data()
                 tooltips = sncf_vse_assets.names,
                 defaultIndex = 1,
                 display = "Compact",
+                postConstructionModifiable = true,
             },
             {
                 key = "sncf_vse_light_pos",
@@ -54,6 +55,7 @@ function data()
                 tooltip = _("vse_toolTypeLightPos"),
                 tooltips = { _("Off"), _("Direction 1"), _("Direction 2") },
                 defaultIndex = 1,
+                postConstructionModifiable = true,
             },
             {
                 key = "sncf_vse_bellow",
@@ -62,6 +64,7 @@ function data()
                 values = { _("Off"), _("AV"), _("AR"), _("AV + AR") },
                 tooltip = _("vse_toolTypeBellow"),
                 defaultIndex = 1,
+                postConstructionModifiable = true,
             },
             {
                 key = "sncf_vse_xoffset",
@@ -70,6 +73,7 @@ function data()
                 values = offsetStrings,
                 tooltip = _("vse_toolTypeXOffset"),
                 defaultIndex = math.ceil(#sncf_vse_assets.offsetValues / 2),
+                postConstructionModifiable = true,
             },
         },
         updateScript = {

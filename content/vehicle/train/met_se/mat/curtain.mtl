@@ -7,7 +7,7 @@ return {
 				fragmentProperties = {
 					{ 
 						isLegacyMaterial = false,
-						lightMask = 32,
+						lightMask = 2,
 					},
 				},
 			},

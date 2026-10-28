@@ -172,7 +172,7 @@ function curtain:curtainMesh(lod, x, pullFactor, flip, widthFactor, yOffset, cus
                 materials = { mat, },
                 mesh = "/vehicle/train/met_se/msh/curtain_lod" .. lod .. ".msh",
                 name = "curtain",
-                transf = { widthFactor, 0, 0, 0, 0, 1, 0, 0, 0, 0, pullFactor, 0, 0, 0, 3.1200184822083, 1, },
+                transf = { widthFactor+.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, pullFactor, 0, 0, 0, 3.1200184822083, 1, },
             },
             curtainDetails,
         },

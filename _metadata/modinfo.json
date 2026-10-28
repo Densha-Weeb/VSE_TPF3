@@ -2,16 +2,16 @@
     "name": "PLM / SNCF - South-East coaches",
     "summary": "French metalized passenger car from the mid '20s.",
     "description": "Constructed in the 1920s by the PLM to sustained it's need with modern passenger coach, they were later the basis for the SNCF's Bruhats passenger coaches. This mod contain all the variants from the PLM era to the latest preseverd variants with repurposed cars for maintenance.",
-    "localization" : {
+    "localization": {
         "en": {
-            "name"          : "PLM / SNCF - South-East coaches",
-            "summary"       : "French metalized passenger car from the mid '20s.",
-            "description"   : "Constructed in the 1920s by the PLM to sustained it's need with modern passenger coach, they were later the basis for the SNCF's Bruhats passenger coaches. This mod contain all the variants from the PLM era to the latest preseverd variants with repurposed cars for maintenance."
+            "name": "PLM / SNCF - South-East coaches",
+            "summary": "French metalized passenger car from the mid '20s.",
+            "description": "Constructed in the 1920s by the PLM to sustained it's need with modern passenger coach, they were later the basis for the SNCF's Bruhats passenger coaches. This mod contain all the variants from the PLM era to the latest preseverd variants with repurposed cars for maintenance."
         },
         "fr": {
-            "name"          : "PLM / SNCF - Voitures Sud-Est",
-            "summary"       : "Voiture voyageurs à caisse métallique du milieu des années 1920.",
-            "description"   : "Construites dans les années 1920 par la compagnie PLM pour répondre à ses besoins en voitures voyageurs modernes, elles ont par la suite servi de base aux voitures « Bruhat » de la SNCF. Ce mod inclut toutes les variantes, de l'époque PLM jusqu'aux versions préservées les plus récentes, y compris les voitures reconverties pour la maintenance."
+            "name": "PLM / SNCF - Voitures Sud-Est",
+            "summary": "Voiture voyageurs à caisse métallique du milieu des années 1920.",
+            "description": "Construites dans les années 1920 par la compagnie PLM pour répondre à ses besoins en voitures voyageurs modernes, elles ont par la suite servi de base aux voitures « Bruhat » de la SNCF. Ce mod inclut toutes les variantes, de l'époque PLM jusqu'aux versions préservées les plus récentes, y compris les voitures reconverties pour la maintenance."
         }
     },
     "authors": [
@@ -21,10 +21,12 @@
         }
     ],
     "tags": [
-        "Wagon", "Other Asset"
+        "Wagon",
+        "Other Asset"
     ],
     "dependencies": [
-        "5837578", "6300224"
+        "5837578",
+        "6300224"
     ],
     "url": "https://mod.io/g/transportfever3/m/plm-sncf-metalised-steel-coach1#description"
 }

@@ -20,14 +20,14 @@ return {
 								front_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -84,14 +84,14 @@ return {
 								front_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -148,14 +148,14 @@ return {
 								inner_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -182,14 +182,14 @@ return {
 								inner_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -216,14 +216,14 @@ return {
 								back_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -280,14 +280,14 @@ return {
 								back_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -512,14 +512,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
@@ -538,14 +538,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
@@ -560,7 +560,7 @@ return {
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
 				visibleFrom = 0,
-				visibleTo = 100,
+				visibleTo = 150,
 			},
 			{ 
 				node = { 
@@ -570,14 +570,14 @@ return {
 								front_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -587,25 +587,25 @@ return {
 									children = {
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, 0.9, -0.11, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, -0.9, -0.11, 1, },
 										},
@@ -634,14 +634,14 @@ return {
 								front_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -651,25 +651,25 @@ return {
 									children = {
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, 0.9, -0.11, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, -0.9, -0.11, 1, },
 										},
@@ -698,14 +698,14 @@ return {
 								inner_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -732,14 +732,14 @@ return {
 								inner_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -766,14 +766,14 @@ return {
 								back_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -783,25 +783,25 @@ return {
 									children = {
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, 0.9, -0.11, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, -0.9, -0.11, 1, },
 										},
@@ -830,14 +830,14 @@ return {
 								back_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -847,25 +847,25 @@ return {
 									children = {
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, 0.9, -0.11, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod1.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, -0.9, -0.11, 1, },
 										},
@@ -1056,14 +1056,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
@@ -1082,14 +1082,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
@@ -1103,7 +1103,7 @@ return {
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
-				visibleFrom = 100,
+				visibleFrom = 150,
 				visibleTo = 400,
 			},
 			{ 
@@ -1114,14 +1114,14 @@ return {
 								front_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1131,25 +1131,25 @@ return {
 									children = {
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, 0.9, -0.11, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, -0.9, -0.11, 1, },
 										},
@@ -1178,14 +1178,14 @@ return {
 								front_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1195,25 +1195,25 @@ return {
 									children = {
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, 0.9, -0.11, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, -0.9, -0.11, 1, },
 										},
@@ -1242,14 +1242,14 @@ return {
 								inner_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1276,14 +1276,14 @@ return {
 								inner_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1310,14 +1310,14 @@ return {
 								back_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1327,25 +1327,25 @@ return {
 									children = {
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, 0.9, -0.11, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, -0.9, -0.11, 1, },
 										},
@@ -1374,14 +1374,14 @@ return {
 								back_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1391,25 +1391,25 @@ return {
 									children = {
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, 0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, 0.9, -0.11, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_70s.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_70s_lod0.msh",
 											name = "Lanternes_sncf_70s",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, 0, -0.9, 0, 1, },
 										},
 										{ 
 											materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
-											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod2.msh",
+											mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 											name = "Lanternes_sncf_licht",
 											transf = { 0.999999, -1.34309e-06, 0, 0, 1.34307e-06, 0.999986, 0.00523596, 0, 0, -0.00523596, 0.999986, 0, -0.007, -0.9, -0.11, 1, },
 										},
@@ -1733,11 +1733,11 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "sncf_common_kit::/vehicle/train/sncf_common/sound/voiture_se.snd",
+					name = "sound/voiture_se.snd",
 				},
 			},
 			transformatorConfig = { 
-				skipFromLod = 1,
+				skipFromLod = 3,
 				transformator = { 
 					name = "::/vehicle/train/shared/default_train.trf",
 				},

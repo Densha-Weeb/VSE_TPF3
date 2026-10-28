@@ -1,14 +1,14 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 11.0918, 1.388, 3.87606, },
-			bbMin = { -11.0918, -1.388, -0.0305398, },
+		bbMax = { 1.9, 1.388004, 1.2, },
+		bbMin = { -1.9, -1.388004, 0, },
 		},
 		collider = { 
 			params = { 
-				halfExtents = { 11.2773, 1.388, 1.9533, },
+			halfExtents = { 1.9, 1.388004, 0.6, },
 			},
-			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
 			type = "BOX",
 		},
 		lods = {
@@ -24,16 +24,16 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
 								{
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 							},
 							name = "bogie_c",
@@ -44,7 +44,7 @@ return {
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
 				visibleFrom = 0,
-				visibleTo = 100,
+				visibleTo = 150,
 			},
 			{ 
 				node = { 
@@ -58,16 +58,16 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
 								{
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 							},
 							name = "bogie_c",
@@ -77,7 +77,7 @@ return {
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
-				visibleFrom = 100,
+				visibleFrom = 150,
 				visibleTo = 400,
 			},
 			{ 

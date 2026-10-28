@@ -78,7 +78,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "sncf_common_kit::/vehicle/train/sncf_common/sound/voiture_se.snd",
+					name = "sound/voiture_se.snd",
 				},
 			},
 			transformatorConfig = { 

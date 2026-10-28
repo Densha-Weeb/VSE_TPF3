@@ -105,10 +105,19 @@ function data()
 
             -- SOLVED TRANSFORMS (Aligned to real track 3D curve & cant)
             if params and params.vseSolved == true then
+                local defaultIdx = math.ceil(#waggon.offsetValues / 2)
+                local solvedRaw = params.vseSolvedXOffset
+                local solvedIdx = (type(solvedRaw) == "number") and ((solvedRaw >= 1) and solvedRaw or (solvedRaw + 1)) or defaultIdx
+                local solvedXOffset = (waggon.offsetValues[solvedIdx] or 0) / 100.0
+                local deltaX = xOffset - solvedXOffset
+
                 if type(params.vseCarTransf) == "table" and #params.vseCarTransf >= 6 then
                     local c = params.vseCarTransf
                     local roll = c[7] or 0.0
-                    local t = transfFromAxis(c[1], c[2], c[3], c[4], c[5], c[6], roll)
+                    local px = c[1] + c[4] * deltaX
+                    local py = c[2] + c[5] * deltaX
+                    local pz = c[3] + c[6] * deltaX
+                    local t = transfFromAxis(px, py, pz, c[4], c[5], c[6], roll)
                     if t ~= nil then
                         carTransf = t
                         inter1Transf = t
@@ -125,11 +134,11 @@ function data()
                     local b = params.vseBogieTransfs
                     local bf, br
                     if #b >= 14 then
-                        bf = transfFromAxis(b[1], b[2], b[3], b[4], b[5], b[6], b[7])
-                        br = transfFromAxis(b[8], b[9], b[10], b[11], b[12], b[13], b[14])
+                        bf = transfFromAxis(b[1] + b[4] * deltaX, b[2] + b[5] * deltaX, b[3] + b[6] * deltaX, b[4], b[5], b[6], b[7])
+                        br = transfFromAxis(b[8] + b[11] * deltaX, b[9] + b[12] * deltaX, b[10] + b[13] * deltaX, b[11], b[12], b[13], b[14])
                     else
-                        bf = transfFromAxis(b[1], b[2], b[3], b[4], b[5], b[6], 0.0)
-                        br = transfFromAxis(b[7], b[8], b[9], b[10], b[11], b[12], 0.0)
+                        bf = transfFromAxis(b[1] + b[4] * deltaX, b[2] + b[5] * deltaX, b[3] + b[6] * deltaX, b[4], b[5], b[6], 0.0)
+                        br = transfFromAxis(b[7] + b[10] * deltaX, b[8] + b[11] * deltaX, b[9] + b[12] * deltaX, b[10], b[11], b[12], 0.0)
                     end
                     if bf ~= nil then bogieFrontTransf = bf end
                     if br ~= nil then bogieRearTransf = br end

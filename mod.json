@@ -15,7 +15,7 @@
         {
             "mod": {
                 "modId": "sncf_common_kit",
-                "revisionMin": 1
+                "revisionMin": 5
             },
             "modInfo": {
                 "displayName": "SNCF Common Kit",
@@ -26,7 +26,7 @@
         }
     ],
     "modId": "densha_VSE",
-    "revision": 4,
+    "revision": 9,
     "severityAdd": "None",
     "severityRemove": "Warning"
 }

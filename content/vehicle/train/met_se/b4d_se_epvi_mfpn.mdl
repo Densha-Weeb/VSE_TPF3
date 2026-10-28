@@ -20,14 +20,14 @@ return {
 								front_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -60,14 +60,14 @@ return {
 								front_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -100,14 +100,14 @@ return {
 								inner_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -134,14 +134,14 @@ return {
 								inner_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -168,14 +168,14 @@ return {
 								back_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -208,14 +208,14 @@ return {
 								back_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -410,14 +410,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
@@ -434,14 +434,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod0.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
@@ -454,7 +454,7 @@ return {
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
 				visibleFrom = 0,
-				visibleTo = 100,
+				visibleTo = 150,
 			},
 			{ 
 				node = { 
@@ -464,14 +464,14 @@ return {
 								front_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -504,14 +504,14 @@ return {
 								front_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -544,14 +544,14 @@ return {
 								inner_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -578,14 +578,14 @@ return {
 								inner_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -612,14 +612,14 @@ return {
 								back_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -652,14 +652,14 @@ return {
 								back_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -854,14 +854,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
@@ -878,14 +878,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
 								},
 								{ 
-									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
-									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod1.msh",
+									materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
 									name = "met_common_bogie_wheel",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
 								},
@@ -899,7 +899,7 @@ return {
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
-				visibleFrom = 100,
+				visibleFrom = 150,
 				visibleTo = 400,
 			},
 			{ 
@@ -910,14 +910,14 @@ return {
 								front_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -950,14 +950,14 @@ return {
 								front_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								front_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/front_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -990,14 +990,14 @@ return {
 								inner_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1024,14 +1024,14 @@ return {
 								inner_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								inner_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/inner_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1058,14 +1058,14 @@ return {
 								back_forward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_forward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_forward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1098,14 +1098,14 @@ return {
 								back_backward_parts_off = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_off.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
 									},
 									type = "FILE_REF",
 								},
 								back_backward_parts_on = { 
 									interpolation = "NEAREST",
 									params = { 
-										id = "/vehicle/shared/ani/back_backward_parts_on.ani",
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -1667,11 +1667,11 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "sncf_common_kit::/vehicle/train/sncf_common/sound/voiture_se.snd",
+					name = "sound/voiture_se.snd",
 				},
 			},
 			transformatorConfig = { 
-				skipFromLod = 1,
+				skipFromLod = 3,
 				transformator = { 
 					name = "::/vehicle/train/shared/default_train.trf",
 				},

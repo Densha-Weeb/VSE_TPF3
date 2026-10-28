@@ -1,0 +1,109 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.9, 1.388004, 1.2, },
+		bbMin = { -1.9, -1.388004, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 1.9, 1.388004, 0.6, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.6, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
+								name = "met_common_bogie_wheel",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+							},
+							{
+								materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod0.msh",
+								name = "met_common_bogie_wheel",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+							},
+						},
+						materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+						mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod0.msh",
+						name = "bogie_y16",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
+								name = "met_common_bogie_wheel",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+							},
+							{
+								materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/wheel1.mtl", },
+									mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/w1_lod1.msh",
+								name = "met_common_bogie_wheel",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+							},
+						},
+						materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+						mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod1.msh",
+						name = "bogie_y16",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			visibleFrom = 150,
+			visibleTo = 400,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+							{
+								materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod2.msh",
+								name = "met_common_bogie_wheel",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23, 0, 0.53, 1, },
+							},
+							{
+								materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_c.mtl", },
+								mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/met_wheel_lod2.msh",
+								name = "met_common_bogie_wheel",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.23, 0, 0.53, 1, },
+							},
+						},
+						materials = { "sncf_common_kit::/vehicle/train/sncf_common/bogie/mat/bogie_y16.mtl", },
+						mesh = "sncf_common_kit::/vehicle/train/sncf_common/bogie/msh/bogie_y16_lod2.msh",
+						name = "bogie_y16",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			visibleFrom = 400,
+			visibleTo = 1500,
+		},
+	},
+	metadata = { },
+	version = 2,
+}
+end
